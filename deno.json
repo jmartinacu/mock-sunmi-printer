@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net --allow-write --unsafely-ignore-certificate-errors=localhost main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
